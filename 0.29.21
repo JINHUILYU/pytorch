@@ -1,0 +1,54 @@
+Defaulting to user installation because normal site-packages is not writeable
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting FuzzyTM
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/06/4d/8d2dd5d81afdea2aa790860d5c7e12f80154923ba827e3fa36759f0bf2cd/FuzzyTM-2.0.5-py3-none-any.whl (29 kB)
+Collecting blosc2~=2.0.0
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/03/d0/685258d475e09d8884d64c8a1eb90a3428fbba782e60b7926f9fdb82c297/blosc2-2.0.0-cp311-cp311-win_amd64.whl (1.9 MB)
+     ---------------------------------------- 1.9/1.9 MB 12.4 MB/s eta 0:00:00
+Collecting cython
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/30/ca/d68432adc1bf90b450c4d9aaf7cbadae50bca0cad1686b1976498abe2eca/Cython-3.0.5-cp311-cp311-win_amd64.whl (2.8 MB)
+     ---------------------------------------- 2.8/2.8 MB 35.5 MB/s eta 0:00:00
+Collecting clyent==1.2.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e9/1b/f73dd0efcacfcadb4beaa075d1f2cfe675fd8baf7658f21a3a7fd5c84aae/clyent-1.2.1.tar.gz (20 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting PyYAML==6.0.1
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/b3/34/65bb4b2d7908044963ebf614fe0fdb080773fc7030d7e39c8d3eddcd4257/PyYAML-6.0.1-cp311-cp311-win_amd64.whl (144 kB)
+     ---------------------------------------- 144.7/144.7 kB ? eta 0:00:00
+Requirement already satisfied: numpy in c:\users\lyu\appdata\roaming\python\python311\site-packages (from FuzzyTM) (1.23.5)
+Requirement already satisfied: pandas in d:\environment\anocanda\lib\site-packages (from FuzzyTM) (2.0.3)
+Requirement already satisfied: scipy in c:\users\lyu\appdata\roaming\python\python311\site-packages (from FuzzyTM) (1.10.1)
+Collecting pyfume (from FuzzyTM)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0f/81/8f35156b9af9c9585de8518b354e42bcaf3ee3e5a77e530613c37de22b1e/pyFUME-0.2.25-py3-none-any.whl (67 kB)
+     ---------------------------------------- 67.1/67.1 kB 3.8 MB/s eta 0:00:00
+Requirement already satisfied: msgpack in d:\environment\anocanda\lib\site-packages (from blosc2~=2.0.0) (1.0.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in d:\environment\anocanda\lib\site-packages (from pandas->FuzzyTM) (2.8.2)
+Requirement already satisfied: pytz>=2020.1 in d:\environment\anocanda\lib\site-packages (from pandas->FuzzyTM) (2023.3.post1)
+Requirement already satisfied: tzdata>=2022.1 in d:\environment\anocanda\lib\site-packages (from pandas->FuzzyTM) (2023.3)
+Collecting simpful (from pyfume->FuzzyTM)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6e/fe/a869c55518c51bea1dddf43260f15fc61d51429c36c6d2f885b5f3556d02/simpful-2.11.0-py3-none-any.whl (32 kB)
+Collecting fst-pso (from pyfume->FuzzyTM)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/5a/d7/f7f93c41fde5b8c1f9d52cc0f9a104a56eca13dc6876c6d2f967ddef88d7/fst-pso-1.8.1.tar.gz (18 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: six>=1.5 in d:\environment\anocanda\lib\site-packages (from python-dateutil>=2.8.2->pandas->FuzzyTM) (1.16.0)
+Collecting miniful (from fst-pso->pyfume->FuzzyTM)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/05/c9/cc1fdd9956e6339b20a80ebfb98216e9b19cd2eac4e1ba9865ca2ef46fbc/miniful-0.0.6.tar.gz (2.8 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: clyent, fst-pso, miniful
+  Building wheel for clyent (setup.py): started
+  Building wheel for clyent (setup.py): finished with status 'done'
+  Created wheel for clyent: filename=clyent-1.2.1-py3-none-any.whl size=9198 sha256=02a3bfdfd5f33d6875769d496d8d991bb1b6e1926db2670d44f028a564c7341e
+  Stored in directory: c:\users\lyu\appdata\local\pip\cache\wheels\bf\12\d4\5d8802f6fa9bef9f2a5972f8b1c82ea350f3662ea45f76c6a4
+  Building wheel for fst-pso (setup.py): started
+  Building wheel for fst-pso (setup.py): finished with status 'done'
+  Created wheel for fst-pso: filename=fst_pso-1.8.1-py3-none-any.whl size=20448 sha256=5e856b4c00ff219fa845de203a20e60c9e4717d085c33e8291ccfc5006e3f390
+  Stored in directory: c:\users\lyu\appdata\local\pip\cache\wheels\0b\4a\1f\003ca58aaca27fccbea1cdfd6a4179601c11d5d8229e16d518
+  Building wheel for miniful (setup.py): started
+  Building wheel for miniful (setup.py): finished with status 'done'
+  Created wheel for miniful: filename=miniful-0.0.6-py3-none-any.whl size=3522 sha256=3beb5117be45f7468ca8bb42e54172909f523b39aa9aaba0b949d28efd559b43
+  Stored in directory: c:\users\lyu\appdata\local\pip\cache\wheels\7e\d5\18\5dc52abac71c7aeaf262b974197a1c9032570d202d96e172c3
+Successfully built clyent fst-pso miniful
+Installing collected packages: clyent, PyYAML, cython, blosc2, simpful, miniful, fst-pso, pyfume, FuzzyTM
+Successfully installed FuzzyTM-2.0.5 PyYAML-6.0.1 blosc2-2.0.0 clyent-1.2.1 cython-3.0.5 fst-pso-1.8.1 miniful-0.0.6 pyfume-0.2.25 simpful-2.11.0
